@@ -1,0 +1,51 @@
+{
+  "name": "base2-koa2-middlewares",
+  "version": "1.0.1",
+  "description": "base2-koa2-middlewares",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm publish ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/base-n/base2-koa2-middlewares.git"
+  },
+  "author": {
+    "name": "base-n"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/base-n/base2-koa2-middlewares/issues"
+  },
+  "homepage": "https://github.com/base-n/base2-koa2-middlewares#readme",
+  "dependencies": {
+    "debug": "~2.2.0",
+    "deep-extend": "^0.4.0",
+    "jade": "~1.11.0",
+    "koa": "^2.0.0",
+    "koa-bodyparser": "^3.1.0",
+    "koa-favicon": "^2.0.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^2.0.0",
+    "koa-onerror": "^1.2.1",
+    "koa-static": "^3.0.0",
+    "koa-views": "^5.0.1",
+    "morgan": "~1.6.1",
+    "mount-koa-routes": "^2.0.1",
+    "mount_plugin": "^1.0.0",
+    "require-directory": "^2.1.1",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "supertest": "^1.1.0",
+    "supervisor": "^0.9.1"
+  },
+  "readme": "# base2-koa-middlewares\n\n## Install\n\n    [sudo] npm install --save base2-koa-middlewares\n\n## Usages\n\n```\napp.mount_plugins('node_modules/base2-koa-middlewares/lib');\n```\n\n## Contributing\n\n1. Fork it\n2. Create your feature branch (`git checkout -b my-new-feature`)\n3. Commit your changes (`git commit -am 'Add some feature'`)\n4. Push to the branch (`git push origin my-new-feature`)\n5. Create new Pull Request\n\n## 版本历史\n\n- v1.0.0 初始化版本\n\n## 欢迎fork和反馈\n\n- write by `base-n` base-n@126.com\n\n如有建议或意见，请在issue提问或邮件\n\n## License\n\nthis repo is released under the [MIT\nLicense](http://www.opensource.org/licenses/MIT).\n",
+  "readmeFilename": "README.md",
+  "gitHead": "935b84453585915d3eac5a5ab56e21d8ea1f59cd",
+  "_id": "base2-koa-middlewares@1.0.1",
+  "_shasum": "3f86308df500c75a1474db495eb515759e9fae49",
+  "_from": "base2-koa-middlewares@*"
+}
